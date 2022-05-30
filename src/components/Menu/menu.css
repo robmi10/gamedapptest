@@ -1,0 +1,65 @@
+.MenuContainer{
+    height: 50vh;
+    width: 100%;
+    background-color: rgb(87, 15, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.MenuContainer2{
+    height: 30vh;
+    width: 100%;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: row;
+    color: white;
+}
+
+.OutContainer{
+    height: 400px;
+    width: 100%;
+    margin-top: 5%;
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+    justify-content: center;
+}
+
+.InsideContainer{
+    height: 300px;
+    width: 100%;
+    background-color: rgb(255, 15, 203);
+    justify-content: center;
+    color: white;
+
+}
+
+.ButtonDes{
+    width: 30%;
+    height: 20%;
+    border-radius: 5px;
+    background-color: whitesmoke;
+    color: black;
+    cursor: pointer;
+    border: 0.2ch;
+    margin-right: 2%;
+    font-size: 20px;
+    transition-duration: 0.3s;
+    text-decoration: none;
+}
+
+.ButtonDes:hover{
+    text-decoration: none;
+    width: 31%;
+    height: 21%;
+    border-radius: 5px;
+    background-color: whitesmoke;
+    color: black;
+    cursor: pointer;
+    font-size: 22px;
+    border: 0.2ch;
+    margin-right: 2%;
+
+}
